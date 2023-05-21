@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap");
+@import url('https://fonts.cdnfonts.com/css/welcome');
+
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  background-image: url("./background.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.xd{
+  margin-left: 60px;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(136, 136, 136, 0.281);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.ab{
+
+ 
+      box-shadow: inset 0 0 0 0 white;
+      color: white;
+      margin: 0 -.25rem;
+      padding: 0 .25rem;
+      transition: color .6s ease-in-out, box-shadow .6s ease-in-out;
+        
+   
+  
+
+
+}
+.ab:hover {
+  box-shadow: inset 2000px 0 0 0 white;
+  color: #54b3d6;
+}
+.abc{
+    font-style: italic;
+     color: black;
+}
+
+.fnt{
+font-family: 'welcome';
+
+font-size: 50px;
+font-size: 350%;
+
+text-shadow: 1.4px 1.0px black;
+color:black;
+
+}
+.imo {
+  position: absolute;
+  top: 11.5%;
+  left: 40%;
+  width: 55px;
+  height: 55px;
+  margin: -60px 0 0 -60px;
+  -webkit-animation: spin 2s linear infinite;
+  -moz-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+  /* font-weight: 1900px; */
+  /* stroke: white; 
+  stroke-width: 5; */
+}
+
+@-moz-keyframes spin {
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
